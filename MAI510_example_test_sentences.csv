@@ -1,0 +1,21 @@
+sentence,expected_intent
+"hey can someone assist me",greeting
+"good evening team",greeting
+"is your desk open saturday",hours
+"when do you shut for the day",hours
+"which floor do I go to",location
+"where should I come for assistance",location
+"I am locked out of my account",password_reset
+"could you help me get a new login secret",password_reset
+"the wireless keeps disconnecting",wifi
+"I need internet on my phone",wifi
+"my inbox is not loading",email
+"can you fix an outlook sign in error",email
+"my document will not come out on paper",printing
+"the copier has jammed again",printing
+"where can I get an application approved",software
+"I want an app put on my laptop",software
+"any news about the issue I submitted",ticket_status
+"please tell me whether my case is closed",ticket_status
+"can I speak with a technician",contact
+"what number reaches the IT team",contact

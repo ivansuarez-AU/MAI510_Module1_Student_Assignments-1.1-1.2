@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi there",
+        "good morning",
+        "good afternoon",
+        "hey support",
+        "hello help desk"
+      ],
+      "responses": [
+        "Hello! How can I help you?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you open",
+        "what are your hours",
+        "opening hours today",
+        "when does the office close",
+        "are you open on monday",
+        "what time do you open"
+      ],
+      "responses": [
+        "Our example service desk is open weekdays from 9 AM to 5 PM."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is your office",
+        "how do I find you",
+        "what is the office address",
+        "where are you located",
+        "directions to your building",
+        "which building is support in"
+      ],
+      "responses": [
+        "This is a demonstration; contact the service desk for its actual address."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "reset my login password",
+        "cannot remember my password",
+        "need a password reset",
+        "change forgotten password",
+        "help me recover my password"
+      ],
+      "responses": [
+        "Use the official password reset portal or contact support."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "how do I connect to wifi",
+        "wireless network connection help",
+        "wifi is not working",
+        "cannot join wireless",
+        "what is the guest wifi",
+        "connect my laptop to wifi"
+      ],
+      "responses": [
+        "Check the official wireless connection guide or ask the service desk."
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "my email is not working",
+        "cannot access mailbox",
+        "help with university email",
+        "outlook will not open",
+        "email login problem",
+        "how to set up email"
+      ],
+      "responses": [
+        "Check your account sign-in and contact support for email issues."
+      ]
+    },
+    {
+      "tag": "printing",
+      "patterns": [
+        "printer is offline",
+        "how can I print",
+        "printing does not work",
+        "where is the printer",
+        "paper jam in printer",
+        "cannot print my document"
+      ],
+      "responses": [
+        "Check the printer status and submit a support request if necessary."
+      ]
+    },
+    {
+      "tag": "software",
+      "patterns": [
+        "install an application",
+        "how do I request software",
+        "need new software installed",
+        "is software available",
+        "request a program installation",
+        "can you install an app"
+      ],
+      "responses": [
+        "Submit an approved software request to the service desk."
+      ]
+    },
+    {
+      "tag": "ticket_status",
+      "patterns": [
+        "check my support ticket",
+        "what is my ticket status",
+        "any update on my request",
+        "track my help desk case",
+        "has my ticket been resolved",
+        "follow up on support case"
+      ],
+      "responses": [
+        "Use the support portal to check the status of your ticket."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact support",
+        "support phone number",
+        "talk to help desk",
+        "who do I call for IT",
+        "send a message to support",
+        "contact technical assistance"
+      ],
+      "responses": [
+        "Contact the service desk through the official support channels."
+      ]
+    }
+  ]
+}
